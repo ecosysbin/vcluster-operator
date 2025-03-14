@@ -1,0 +1,9 @@
+apiVersion: cloud.ecosysbin.com/v1alpha1
+kind: Vcluster
+metadata:
+  labels:
+    app.kubernetes.io/name: vcluster-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: vcluster-sample
+spec:
+  # TODO(user): Add fields here
